@@ -6,7 +6,7 @@ export default function ContactForm() {
     <>
       <form name="contact" data-netlify='true'>
         <p>
-          <label>Name <input type="text" name="name" /></label>
+          <label>Name <input type="text" name="contact" /></label>
         </p>
         <p>
           <label>Email <input type="email" name="email" /></label>
