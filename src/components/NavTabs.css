@@ -1,16 +1,32 @@
 .container-fluid {
-  background-color: #122c34;
+  background-color: #1A3A52;
   height: 115px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar.navbar-expand-lg {
+  padding: 0;
 }
 
 .my-name {
   font-size: 3em;
   text-decoration: none;
   color: #4ea5d9;
+  margin-left: 15px;
 }
 
 .my-name:hover {
   color: #44cfcb;
+}
+
+.navbar-toggler {
+ background-color: #4ea5d9; 
+ margin-right: 15px;
+}
+
+.navbar-nav {
+  background-color: #1A3A52;
 }
 
 .nav-item {
