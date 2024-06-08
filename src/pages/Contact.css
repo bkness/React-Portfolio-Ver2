@@ -1,0 +1,54 @@
+:root {
+    --prussian-blue: #1c3144ff;
+    --raspberry-rose: #b5446eff;
+    --air-superiority-blue: #6d98baff;
+    --sage: #c9c19fff;
+    --royal-blue: #4169e1;
+  }
+
+.contact-container {
+margin-top: 63px;
+margin-left: 40px;
+}
+
+.form-text {
+    color: var(--sage);
+    font-size: 1.2em;
+}
+
+.fields {
+    margin-top: 10px;
+    width: 400%;
+} 
+
+#email {
+    margin-top: 10px;
+    width: 86.3%;
+}
+
+.primary-button {
+    background-color: var(--royal-blue);
+   margin-top: 25px;
+   padding: 10px 20px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.primary-button:hover {
+    background-color: green;
+    transform: translateY(-2px);
+}
+
+.primary-button:active {
+    background-color: var(--prussian-blue);
+    transform: translateY(0);
+}
+
+.primary-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--air-superiority-blue);
+}
