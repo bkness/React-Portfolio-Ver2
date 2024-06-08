@@ -8,7 +8,6 @@ export default function Contact() {
       <form name="contact v1" method="post" data-netlify="true" onSubmit='submit'>
         <input type="hidden" name="form-name" value="contact v1" />
     <div>
-      <div></div>
       <label>First Name: 
         <div className='input'>
         <input type="text" name='first-name'/>

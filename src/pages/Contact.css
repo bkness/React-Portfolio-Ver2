@@ -48,3 +48,9 @@
     margin-top: -15px;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .input {
+        width: 75%;
+    }
+  }
