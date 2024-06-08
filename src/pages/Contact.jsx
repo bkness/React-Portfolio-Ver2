@@ -5,25 +5,31 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot='bot-field' action='/pages/About'>
-        <input type="hidden" name="form-name" value="contact" />
-        <input type="hidden" name="bot-field" value="contact" />
-        <p>
-          <label>Your Name: </label>
-          <input type="text" name="name" required />
-        </p>
-        <p>
-          <label>Your Email: </label>
-          <input type="email" name="email" required />
-        </p>
-  
-        <p>
-          <label>Message: </label>
-          <textarea name="message" required rows='5'></textarea>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+      <form name="contact v1" method="post" data-netlify="true" onSubmit='submit'>
+        <input type="hidden" name="form-name" value="contact v1" />
+    <div>
+      <div></div>
+      <label>First Name: 
+        <div className='input'>
+        <input type="text" name='first-name'/>
+        </div>
+      </label>
+    </div>
+<div>
+  <label htmlFor='email'>Email:
+  <div className='input'>
+    <input id='email' type="email" name='email'/>
+    </div>
+     </label>
+</div>
+<div>
+  <label>Messages:
+    <div className='input'>
+    <textarea name="messages"></textarea>
+    </div>
+  </label>
+</div>
+          <button type="submit">Submit</button>
       </form>
     </div>
   );
