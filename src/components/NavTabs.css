@@ -1,0 +1,86 @@
+/* General Navbar Styles */
+.navbar {
+    background-color: var(--air-superiority-blue);
+    margin-bottom: 1rem;
+  }
+  
+  .navbar-brand {
+    color: var(--sage);
+    font-weight: bold;
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: var(--prussian-blue);
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Active Navbar Link */
+  .navbar-nav .nav-link.active {
+    color: var(--emerald);
+    font-weight: bold;
+    background-color: var(--sage);
+  }
+  
+  /* Navbar Link Hover */
+  .navbar-nav .nav-link:hover {
+    color: var(--raspberry-rose);
+    background-color: var(--sage);
+    text-decoration: none;
+  }
+  
+  /* General Link Styles */
+  a {
+    color: var(--emerald);
+  }
+  
+  a:hover {
+    color: var(--raspberry-rose);
+    text-decoration: none;
+  }
+  
+  /* Dropdown Specific Styles */
+  .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar-nav .nav-link {
+    position: relative;
+    display: block;
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    border: solid transparent;
+    
+    border-top-color: var(--prussian-blue);
+  }
+  
+  .navbar-nav .nav-item:hover .nav-link::after {
+    border-top-color: var(--raspberry-rose);
+  }
+  
+  /* Ensure dropdown items have enough padding and touch-friendly */
+  @media (max-width: 992px) {
+    .navbar-nav .nav-item {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 10px 20px;
+      background-color: var(--air-superiority-blue);
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navbar-nav .nav-link:hover {
+      background-color: var(--sage);
+      color: var(--raspberry-rose);
+    }
+  }
+  
