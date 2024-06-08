@@ -12,7 +12,6 @@ function App() {
     <>
       <NavTabs />
       <main className="main">
-        
         <Outlet />
       </main>
       <Footer />
