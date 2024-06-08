@@ -18,7 +18,7 @@ export default function Contact() {
   
         <p>
           <label>Message: </label>
-          <textarea name="message" required></textarea>
+          <textarea name="message" required rows='5'></textarea>
         </p>
         <p>
           <button type="submit">Send</button>
