@@ -1,57 +1,11 @@
-Global styles
-:root {
-    --prussian-blue: #1c3144ff;
-    --raspberry-rose: #b5446eff;
-    --air-superiority-blue: #6d98baff;
-    --sage: #c9c19fff;
-    --royal-blue: #4169e1;
-  }
-  
-  html, body, #root {
+  body {
+    background-color: #224870;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     height: 100%;
   }
-  
-  body {
-    background-color: hsla(208, 42%, 19%, 1);
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav.nav-tabs {
-    background-color: var(--air-superiority-blue);
-  }
-  
-  .nav-item {
-    margin-right: 30px;
-  }
-  
-  .nav-link {
-    color: var(--prussian-blue);
-    padding: 10px;
-  }
-  
-  .nav-link {
-    transition: color 0.04s ease;
-  }
-  
-  .nav-link:hover {
-    color: var(--sage);
-  }
-  
-  .p-3 {
+
+  .wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
-  
-  .p-img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+    min-height: 100vh;
+}
