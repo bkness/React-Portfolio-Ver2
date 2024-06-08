@@ -1,28 +1,34 @@
 import React from 'react';
-import './Contact.css';
+// import './Contact.css';
 
 export default function Contact() {
   return (
-    <div className="contact-container">
-      <h1>Contact Me</h1>
-      <form name="contact" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact" />
-        <p>
-          <label>Your Name: </label>
-          <input type="text" name="name" required />
-        </p>
-        <p>
-          <label>Your Email: </label>
-          <input type="email" name="email" required />
-        </p>
-  
-        <p>
-          <label>Message: </label>
-          <textarea name="message" required></textarea>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+    <div>
+      <form name='contact v1' method='POST' data-netlify='true' onSubmit='submit'> 
+   
+    <input type="hidden" name="form-name" value='contact v1' />
+   
+    <div>
+      <label>First Name <br />
+        <input type="text" name='first-name' />
+      </label>
+    </div>
+
+    <div>
+      <label htmlFor='email'>Email</label> <br /> 
+      <input id='email' type="email" name="email" />
+    </div>
+
+    <div>
+      <label>Messages <br />
+      <textarea name="messages" rows='7'></textarea>
+    
+      </label>
+    </div>
+
+    <button type='submit'>Submit The Results</button>
+    
+
       </form>
     </div>
   );
