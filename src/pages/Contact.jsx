@@ -4,7 +4,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div>
-      <form name='contact v1' method='POST' data-netlify='true' onSubmit='submit'> 
+      <form method='POST' data-netlify='true' onSubmit='submit'> 
    
     <input type="hidden" name="form-name" value='contact v1' />
    
