@@ -10,16 +10,14 @@
   <body>
     <div id="root"></div>
     <div>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" netlify>
         <p>
-          <label>Your Name: <input type="text" name="name" /></label>
+          <label>Name <input type="text" name="name" /></label>
         </p>
         <p>
-          <label>Your Email: <input type="email" name="email" /></label>
+          <label>Email <input type="email" name="email" /></label>
         </p>
-        <p>
-          <label>Message: <textarea name="message" rows="7"></textarea></label>
-        </p>
+        <label">Messages <input type="text" name="messages" /> </label>
         <p>
           <button type="submit">Send</button>
         </p>
