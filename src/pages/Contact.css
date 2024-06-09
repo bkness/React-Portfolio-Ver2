@@ -51,7 +51,8 @@
 
 @media only screen and (max-width: 600px) {
     .contact-container input,
-    .contact-container textarea {
+    .contact-container textarea,
+    input #email {
         width: 120%;
     }
   }
