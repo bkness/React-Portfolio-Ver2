@@ -16,8 +16,9 @@ export default function Contact() {
           <input type="email" name="email" id="email" />
         </p>
         <p>
-          <label>Message: </label>
-          <textarea name="message" rows="5"></textarea>
+          <label>Message:
+            <textarea name="message" rows="5"></textarea>
+          </label>
         </p>
         <p>
           <button type="submit">Send</button>
