@@ -5,8 +5,7 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form name="contact-form" data-netlify="true" method="POST" onSubmit={(e) => e.preventDefault()}>
-        {/* Corrected form-name value to match the form's name attribute */}
+      <form name="contact-form" data-netlify="true" method="POST" onSubmit='TRUE'>
         <input type="hidden" name="form-name" value="contact-form" />
         <p>
           <label>Your Name: </label>
