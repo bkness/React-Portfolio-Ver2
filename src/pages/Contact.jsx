@@ -5,11 +5,12 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form name="contact-form" data-netlify="true" method="POST" onSubmit='TRUE'>
-        <input type="hidden" name="form-name" value="contact-form" />
+      <form name="contact" data-netlify="true" method="POST" onSubmit='true'>
+        <input type="hidden" name="form-name" value="contact" />
         <p>
-          <label>Your Name: </label>
+          <label>Your Name: 
           <input type="text" name="name"/>
+       </label>
         </p>
         <p>
           <label>Your Email: </label>
@@ -17,8 +18,9 @@ export default function Contact() {
         </p>
 
         <p>
-          <label>Message: </label>
-          <textarea name="message" rows='5'></textarea>
+          <label>Message: 
+          <textarea name="message"></textarea>
+       </label>
         </p>
         <p>
           <button type="submit">Send</button>
