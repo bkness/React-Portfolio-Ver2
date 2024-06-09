@@ -53,6 +53,6 @@
     .contact-container input,
     .contact-container textarea,
     input #email {
-        width: 120%;
+        width: 100%;
     }
   }
