@@ -5,8 +5,8 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form name="contact v3" method="POST" data-netlify="true" onSubmit='true'>
-        <input type="hidden" name="form-name" value="contact v3" />
+      <form name="contact" method="POST" data-netlify="true" onSubmit='true'>
+        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>Your Name: </label>
           <input type="text" name="name" />
