@@ -50,7 +50,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .input {
-        width: 75%;
+    .contact-container input,
+    .contact-container textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #122c34; 
+        border-radius: 5px;
+        font-size: 1.4rem;
+        background-color: #f5f5f5; 
+        width: 100%;
     }
   }
