@@ -3,36 +3,29 @@ import './Contact.css';
 
 export default function Contact() {
   return (
-    <div>
-      <form
-        name='contact v3'
-        method='post'
-        data-netlify='true'
-        onSubmit='true'
-      >
-        <input type='hidden' name='form-name' value='contact v3' />
+    <div className="contact-container">
+      <h1>Contact Me</h1>
+      <form name="contact" data-netlify="true" method="POST" onSubmit='true'>
+        <input type="hidden" name="form-name" value="contact" />
+        <p>
+          <label>Your Name: 
+          <input type="text" name="name"/>
+       </label>
+        </p>
+        <p>
+          <label>Your Email: </label>
+          <input type="email" name="email" />
+        </p>
 
-        <div>
-          <label>Your Name: <br />
-            <input type="text" name='first-name' />
-          </label>
-        </div>
-
-        <div>
-          <label htmlFor='email'>email</label> <br />
-          <input id='email' type='email' name='email' />
-        </div>
-
-        <div>
-          <label>Messages: <br />
-    <textarea name='messages'></textarea>
-          </label>
-        </div>
-
-        <button type='submit'>Submit</button>
-
+        <p>
+          <label>Message: 
+          <textarea name="message"></textarea>
+       </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
-
     </div>
-  )
+  );
 }
