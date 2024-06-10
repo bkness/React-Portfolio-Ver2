@@ -3,7 +3,7 @@ import './Contact.css';
 
 export default function Contact() {
   return (
-    <div>
+    <div className='contact-container'>
       <h1>Contact Me</h1>
       <form name="contact" data-netlify="true" method="POST">
         <input type="hidden" name="form-name" value="contact" />
