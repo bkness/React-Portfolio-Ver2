@@ -15,25 +15,31 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div>
       <h1>Contact Me</h1>
+     
       <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+
+      <form name="contact" data-netlify="true" method="POST">
         <input type="hidden" name="form-name" value="contact" />
+       
         <p>
-          <label>Your Name: </label>
-          <input type="text" name="name" />
+          <label for='name'>Your Name: </label>
+          <input type="text" name="name" id='name' placeholder='Your Name'/>
         </p>
+      
         <p>
           <label>Your Email: </label>
-          <input type="email" name="email" id='email' />
+          <input type="email" name="email" placeholder='Your Email'/>
         </p>
-  
+
         <p>
-          <label>Message: </label>
-          <textarea name="message" required rows='5'></textarea>
+          <label for='message'>Message: </label>
+          <textarea name="message" id='message' placeholder='Your Message'></textarea>
+       
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button type="submit">Send Message</button>
         </p>
       </form>
     </div>
@@ -41,3 +47,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+}
