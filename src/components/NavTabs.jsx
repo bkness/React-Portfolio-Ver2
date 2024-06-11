@@ -6,32 +6,64 @@ import './NavTabs.css';
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
+  const handleNavLinkClick = () => {
+    const navbarToggler = document.getElementById('navbarToggler');
+    if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
+      navbarToggler.click();
+    }
+  };
+
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <Link className="my-name" to="/">Brandon Kelly</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          id="navbarToggler"
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+              <Link
+                to="/"
+                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                onClick={handleNavLinkClick}
+              >
                 <FaHome className="react-icon" /> Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
+              <Link
+                to="/Portfolio"
+                className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+                onClick={handleNavLinkClick}
+              >
                 <FaBriefcase className="react-icon" /> Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>
+              <Link
+                to="/Resume"
+                className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                onClick={handleNavLinkClick}
+              >
                 <FaUser className="react-icon" /> Resume
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>
+              <Link
+                to="/Contact"
+                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                onClick={handleNavLinkClick}
+              >
                 <FaEnvelope className="react-icon" /> Contact
               </Link>
             </li>
