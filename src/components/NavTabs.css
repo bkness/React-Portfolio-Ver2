@@ -22,7 +22,7 @@
 
 .navbar-toggler {
  background-color: #4ea5d9; 
- margin-right: 15px;
+ margin-right: 10px;
 }
 
 .navbar-nav {
@@ -50,3 +50,4 @@
 .nav-link .react-icon {
   color: inherit; 
 }
+
