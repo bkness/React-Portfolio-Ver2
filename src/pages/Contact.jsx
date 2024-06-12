@@ -1,30 +1,46 @@
 import React from 'react';
 import './Contact.css';
 
-export default function Contact() {
+const Contact = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const form = event.target;
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(new FormData(form)).toString(),
+    })
+      .then(() => alert('Success!'))
+      .catch((error) => alert(error));
+  };
+
+  const handleFieldChange = (event) => {
+    event.preventDefault();
+  };
+
   return (
-    <div className='contact-container'>
+    <div className="contact-container">
       <h1>Contact Me</h1>
-      <form name="contact" data-netlify="true" method="POST">
+      <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
         <input type="hidden" name="form-name" value="contact" />
         <p>
-          <label for='name'>Your Name: </label>
-          <input type="text" name="name" id='name' placeholder='Your Name'/>
+          <label>Your Name: </label>
+          <input type="text" name="name" onChange={handleFieldChange} />
         </p>
         <p>
           <label>Your Email: </label>
-          <input type="email" name="email" placeholder='Your Email'/>
-        </p>
-
-        <p>
-          <label for='message'>Message: </label>
-          <textarea name="message" id='message' placeholder='Your Message'></textarea>
-       
+          <input type="email" name="email" id="email" onChange={handleFieldChange} />
         </p>
         <p>
-          <button type="submit">Send Message</button>
+          <label>Message: </label>
+          <textarea name="message" required rows="5" onChange={handleFieldChange}></textarea>
+        </p>
+        <p>
+          <button type="submit">Send</button>
         </p>
       </form>
     </div>
   );
-}
+};
+
+export default Contact;
