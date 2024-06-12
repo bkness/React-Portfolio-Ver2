@@ -2,18 +2,6 @@ import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   const form = event.target;
-  //   fetch('/', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  //     body: new URLSearchParams(new FormData(form)).toString(),
-  //   })
-  //     .then(() => alert('Success!'))
-  //     .catch((error) => alert(error));
-  // };
-
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
