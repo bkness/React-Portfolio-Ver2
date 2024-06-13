@@ -91,8 +91,9 @@ export default function Resume() {
       <div className="experience">
         <strong className="project-description">Enchantment Resort | Bartender</strong>  <strong className="date">March 2018 – March 2019</strong><br />
         <div className="location">Sedona, AZ<br /></div> <br />
-        Experienced bartender at a prestigious resort, adeptly working two restaurant bars and occasionally assisting at the pool bar. Promoted to Head Bartender at Che Ah Chi, the fine dining restaurant known for signature prickly pear cocktails and handcrafted drinks featuring fresh ingredients like ginger and lime. Demonstrated proficiency in inventory management and expanded responsibilities to assist the Food and Beverage Manager with wine cellar inventory.
-      </div> <br />
+        <p>Experienced bartender at a prestigious resort, adeptly working two restaurant bars and occasionally assisting at the pool bar. Promoted to Head Bartender at Che Ah Chi, the fine dining restaurant known for signature prickly pear cocktails and handcrafted drinks featuring fresh ingredients like ginger and lime. Demonstrated proficiency in inventory management and expanded responsibilities to assist the Food and Beverage Manager with wine cellar inventory.</p>
+             <ul><li>Gained valuable multicultural experience by serving a diverse international clientele.</li></ul>
+        <ul><li>Successfully managed cocktail service for three distinct restaurants in a fast-paced fine dining environment, reducing labor costs while increasing profit</li></ul> </div> <br />
 
       <h2 className="section-title">Education</h2> <br />
 
@@ -100,8 +101,6 @@ export default function Resume() {
         <strong className="project-description">Full Stack Web Development Boot Camp Certificate</strong> | <strong className="date">February 2024</strong><br />
         <div className="location">Arizona State University, Phoenix, AZ</div><br />
         <p>Completed an intensive program focused on full-stack development, covering HTML, CSS, JavaScript, React, Node.js, MongoDB, and more. Developed and deployed multiple web applications, gaining hands-on experience in agile development methodologies and project management.</p> <br />
-        <ul><li>Gained valuable multicultural experience by serving a diverse international clientele.</li></ul>
-        <ul><li>Successfully managed cocktail service for three distinct restaurants in a fast-paced fine dining environment, reducing labor costs while increasing profit</li></ul>
       </div>
     </div>
   );
