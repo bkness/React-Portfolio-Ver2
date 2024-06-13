@@ -73,22 +73,25 @@ export default function Resume() {
       <h2 className="section-title">Experience</h2> <br />
 
       <div className="experience">
-        <strong className="project-description">Creekside American Bistro, Bartender</strong> | <strong className="date">March 2019 – January 2021</strong><br />
+        <strong className="project-description">Abundant Organics | Gardener</strong>  <strong className="date">March 2019 – January 2021</strong><br />
         <div className="location"> Cottonwood, AZ<br /></div> <br />
-        Crafted and served signature cocktails, maintained bar inventory, and ensured exceptional customer service.<br />
-        <strong className="project-description">Key Accomplishments:</strong> Recognized for exceptional customer service, led a team during high-volume events.
-      </div> <br />
+       <p>Experienced organic gardener proficient in crafting microbial and Neem teas for pest control, optimizing plant growth through strategic transplanting and meticulous watering schedules. Skilled in soil testing to maintain ideal pH and nutrient levels, with a focus on effective teamwork to maximize yield and manage labor costs efficiently</p><br /> 
+        <ul><li>Achieved a 20-40% increase in yields by implementing effective watering and pruning techniques. Recognized for performance and promoted internally to a salaried position based on demonstrated results and dedication
+        </li></ul>
 
+      </div> <br />
       <div className="experience">
-        <strong className="project-description">Main Stage, Bartender</strong> | <strong className="date">June 2015 – November 2023</strong><br />
+        <strong className="project-description">Main Stage | Bartender</strong>  <strong className="date">June 2015 – November 2023</strong><br />
         <div className="location">Cottonwood, AZ<br /></div> <br />
-        On-call bartender when they are short-staffed. Swiftly making and serving cocktails to patrons on busy nights. Keeping awareness of intoxicated customers to ensure a safe environment for staff and customers.
+       <p>Experienced bartender in a dynamic nightclub environment at Main Stage, adept in high-volume service and proficient in till management. Skillfully prepares a diverse range of craft cocktails and mixed drinks while maintaining exceptional customer service standards amidst live music performances</p> <br />
+       <ul><li>Successfully maintained high service standards and efficiency in a fast-paced nightclub environment</li> <br />
+       <li>Remained on call due to exceptional performance and critical thinking skills</li></ul>
       </div> <br />
 
       <div className="experience">
-        <strong className="project-description">Enchantment Resort, Bartender</strong> | <strong className="date">March 2018 – March 2019</strong><br />
+        <strong className="project-description">Enchantment Resort | Bartender</strong>  <strong className="date">March 2018 – March 2019</strong><br />
         <div className="location">Sedona, AZ<br /></div> <br />
-        Responsible for serving drinks to the restaurant, Tii Gavo, and the entire wine bar. Other responsibilities include stocking, balancing cash drawers, upselling tickets, keeping a clean bar, preparing juices and ingredients for seasonal drinks.
+        Experienced bartender at a prestigious resort, adeptly working two restaurant bars and occasionally assisting at the pool bar. Promoted to Head Bartender at Che Ah Chi, the fine dining restaurant known for signature prickly pear cocktails and handcrafted drinks featuring fresh ingredients like ginger and lime. Demonstrated proficiency in inventory management and expanded responsibilities to assist the Food and Beverage Manager with wine cellar inventory.
       </div> <br />
 
       <h2 className="section-title">Education</h2> <br />
@@ -96,7 +99,9 @@ export default function Resume() {
       <div className="education">
         <strong className="project-description">Full Stack Web Development Boot Camp Certificate</strong> | <strong className="date">February 2024</strong><br />
         <div className="location">Arizona State University, Phoenix, AZ</div><br />
-        Completed an intensive program focused on full-stack development, covering HTML, CSS, JavaScript, React, Node.js, MongoDB, and more. Developed and deployed multiple web applications, gaining hands-on experience in agile development methodologies and project management.
+        <p>Completed an intensive program focused on full-stack development, covering HTML, CSS, JavaScript, React, Node.js, MongoDB, and more. Developed and deployed multiple web applications, gaining hands-on experience in agile development methodologies and project management.</p> <br />
+        <ul><li>Gained valuable multicultural experience by serving a diverse international clientele.</li></ul>
+        <ul><li>Successfully managed cocktail service for three distinct restaurants in a fast-paced fine dining environment, reducing labor costs while increasing profit</li></ul>
       </div>
     </div>
   );
