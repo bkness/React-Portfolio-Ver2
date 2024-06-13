@@ -2,67 +2,35 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  // State to manage form data and errors
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [formValid, setFormValid] = useState(true); 
 
-  const [formErrors, setFormErrors] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  // Function to handle input changes in form fields 
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    // Update formData state with new values 
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-    // Clear the error message when the user starts typing again
-    setFormErrors({
-      ...formErrors,
-      [name]: ''
-    });
-  };
-
-  // Function to handle the form submission 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Simple form validation
-    let errors = {};
-    if (formData.name.trim() === '') {
-      errors.name = 'Name is required';
-    }
-    if (formData.email.trim() === '') {
-      errors.email = 'Email is required';
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      errors.email = 'Email is invalid';
-    }
-    if (formData.message.trim() === '') {
-      errors.message = 'Message is required';
+    // Validate required fields
+    if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+      setFormValid(false);
+      return;
     }
 
-    // If there are validation errors, update formErrors state
-    if (Object.keys(errors).length > 0) {
-      setFormErrors(errors);
-    } 
+    // Form is valid, continue with submission 
+    console.log('Submitting form...');
+  
+
+    // Reset form after successful submission
+    setName('');
+    setEmail('');
+    setMessage('');
+    setFormValid(true);
   };
 
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        onSubmit={handleSubmit}
-      >
+      <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>Name: </label>
@@ -70,10 +38,9 @@ const Contact = () => {
             type="text"
             name="name"
             placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
-          {formErrors.name && <span className="error">{formErrors.name}</span>}
         </p>
         <p>
           <label>Email: </label>
@@ -81,10 +48,9 @@ const Contact = () => {
             type="email"
             name="email"
             placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
-          {formErrors.email && <span className="error">{formErrors.email}</span>}
         </p>
 
         <p>
@@ -92,15 +58,19 @@ const Contact = () => {
           <textarea
             name="message"
             placeholder="Your Message"
-            value={formData.message}
-            onChange={handleChange}
             required
             rows="5"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           ></textarea>
-          {formErrors.message && <span className="error">{formErrors.message}</span>}
         </p>
+        {!formValid && (
+          <p style={{ color: 'red' }}>Please fill out all required fields.</p>
+        )}
         <p>
-          <button type="submit">Send</button>
+          <button type="button" onClick={handleSubmit}>
+            Send
+          </button>
         </p>
       </form>
     </div>
