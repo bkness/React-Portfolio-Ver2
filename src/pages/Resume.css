@@ -1,9 +1,17 @@
-.contact-info,
-h2,
 p,
-.project,
 .experience,
+.project,
 .education {
     color: #4ea5d9;
-    
 }
+
+.name,
+.contact-info,
+.skill-def,
+.project-description,
+.date,
+.location,
+h2 {
+    color: #44cfcb;  
+}
+
