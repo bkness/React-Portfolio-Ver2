@@ -15,3 +15,52 @@ h2 {
     color: #44cfcb;  
 }
 
+.contact-info,
+.contact-link,
+.project,
+.experience,
+.education,
+p {
+    font-size: 1.2em;
+}
+
+.separator {
+    color: #0d6efd;  
+    margin: 0 8px;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link {
+    display: flex;
+    justify-content: center;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+}
+
+.work-with-date {
+    display: flex;
+    justify-content: space-between;
+}
+
