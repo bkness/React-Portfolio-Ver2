@@ -16,14 +16,13 @@ export default function Resume() {
 
       <h2 className="section-title">Summary</h2>
       <p className="summary">
-        Dedicated and detail-oriented Web Developer with a diverse background in bartending and botany. Skilled in HTML, CSS, JavaScript, and React, with a focus on creating user-friendly and visually appealing web applications. Experienced in multitasking, high-volume environments, inventory management, and customer service from bartending. Proficient in sustainable agricultural practices, composting, and maximizing yield from botany studies. Passionate about leveraging technology to improve lives and seeking a fulfilling career in the dynamic field of web development.
-      </p>
+      Dedicated and detail-oriented Web Developer and Full-Stack Bootcamp graduate, skilled in HTML, CSS, JavaScript, TypeScript, Node, React, MongoDB, GraphQL and SQL. Passionate about creating user-friendly and visually appealing web applications. Demonstrates strong multitasking abilities, excellent problem-solving skills, and a keen eye for detail. Leverages a diverse background in high-pressure environments and customer service to deliver efficient, high-quality results. Experienced in project management, customer service, leadership, and botany from previous roles, bringing a unique perspective to web development.      </p>
 
       <h2 className="section-title">Technical Skills</h2>
       <p className="skills">
-        <strong>Languages:</strong> HTML, CSS, JavaScript, React<br />
-        <strong>Frameworks & Libraries:</strong> Bootstrap, jQuery, Redux, Handlebars.js, Node.js<br />
-        <strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Heroku, MongoDB, Netlify, Render<br />
+        <strong>Languages:</strong> HTML5, CSS3, JavaScript, React<br />
+        <strong>Frameworks & Libraries:</strong> Bootstrap, Tailwind, jQuery, Redux, Handlebars.js, Node.js<br />
+        <strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Heroku, MongoDB, GraphQL, Netlify, Render, Firebase<br />
         <strong>Other:</strong> Responsive Design, RESTful APIs, Agile Methodologies
       </p>
 
