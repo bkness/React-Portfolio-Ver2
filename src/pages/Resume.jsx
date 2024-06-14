@@ -4,13 +4,20 @@ import './Resume.css';
 export default function Resume() {
   return (
     <div className="resume-container"> <br />
-     
+
       <h1 className="name">Brandon Michael Kelly</h1> <br />
 
       <div className="contact-info">
-        Cottonwood, AZ 86326 | Phone: 928-274-6725<br />
+        <div className="location">
+          Cottonwood, AZ 86326
+        </div>
+        <div className="separator-1">
+          |
+        </div>
+        <div className="phone">
+        Phone: <a href="tel:928-274-6725">928-274-6725</a><br />
+        </div>
       </div>
-
       <div className="contact-link">
         <a href="mailto:kbrandon863@gmail.com">Email</a>
         <div className="separator">|</div>
@@ -20,8 +27,8 @@ export default function Resume() {
       </div><br /> <br />
 
       <h2 className="section-title">Summary</h2> <br />
-     
-     <p className="summary">
+
+      <p className="summary">
         Dedicated and detail-oriented Web Developer and Full-Stack Bootcamp graduate, skilled in HTML, CSS, JavaScript, TypeScript, Node, React, MongoDB, GraphQL and SQL. Passionate about creating user-friendly and visually appealing web applications. Demonstrates strong multitasking abilities, excellent problem-solving skills, and a keen eye for detail. Leverages a diverse background in high-pressure environments and customer service to deliver efficient, high-quality results. Experienced in project management, customer service, leadership, and botany from previous roles, bringing a unique perspective to web development.      </p> <br />
 
       <h2 className="section-title">Technical Skills</h2> <br />
@@ -33,7 +40,7 @@ export default function Resume() {
       </p> <br />
 
       <h2 className="section-title">Related Experience</h2> <br />
-     
+
       <div className="project">
         <strong className="project-description">Arizona State University Web Development Program</strong>
       </div><br />
@@ -106,7 +113,7 @@ export default function Resume() {
           <li>Successfully maintained high service standards and efficiency in a fast-paced nightclub environment.</li> <br />
           <li>Remained on call due to exceptional performance and critical thinking skills.</li> <br />
         </ul>
-      </div> 
+      </div>
 
       <div className="experience">
         <div className="work-with-date">
@@ -124,7 +131,7 @@ export default function Resume() {
 
       <h2 className="section-title">Education</h2> <br />
 
-      <div className="education"> 
+      <div className="education">
         <div className="work-with-date">
           <div className="left-content">
             <strong className="project-description">Full Stack Web Development Boot Camp Certificate</strong>

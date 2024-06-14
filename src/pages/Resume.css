@@ -24,8 +24,18 @@ p {
     font-size: 1.2em;
 }
 
+a {
+    color: #4ea5d9;
+    text-decoration: none;
+}
+
+.separator-1 {
+    color: #4ea5d9;
+    margin: 0 8px;
+}
+
 .separator {
-    color: #0d6efd;  
+    color: #44cfcb;  
     margin: 0 8px;
 }
 
@@ -64,3 +74,20 @@ li {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+     
+    .location {
+        margin-bottom: 10px;
+    }
+
+    .separator-1 {
+        display: none;
+    }
+  }
