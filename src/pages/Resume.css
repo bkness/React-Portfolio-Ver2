@@ -27,6 +27,16 @@ p {
 a {
     color: #4ea5d9;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #44cfcb;  
+}
+
+.separator {
+    color: #44cfcb;  
+    margin: 0 8px;
 }
 
 .separator-1 {
@@ -34,9 +44,8 @@ a {
     margin: 0 8px;
 }
 
-.separator {
+.separator-2 {
     color: #44cfcb;  
-    margin: 0 8px;
 }
 
 li {
@@ -46,7 +55,7 @@ li {
 .resume-container {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding-inline: 2%;
 }
 
 .name {
@@ -90,4 +99,17 @@ li {
     .separator-1 {
         display: none;
     }
-  }
+
+    .work-with-date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .left-container,
+    .right-container {
+        flex: 1;
+        flex-direction: column;
+    }
+    }
