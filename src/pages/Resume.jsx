@@ -47,8 +47,8 @@ export default function Resume() {
 
       <div className="project">
         <strong className="project-description">Video-Game-Hub</strong> |
-        <a href="https://github.com/bkness/LocalBreweries" target="_blank" rel="noopener noreferrer">GitHub</a> |
-        <a href="https://radiant-fjord-87739-920e7bb79c22.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live</a><br /> <br />
+        <a href="https://github.com/bkness/video-game-hub-project3" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="https://video-game-hub-project3.onrender.com/" target="_blank" rel="noopener noreferrer">Live</a><br /> <br />
         <strong className="project-description">Responsibilities:</strong> Collaborated on the development of a MERN stack application, utilizing MongoDB for the backend, GraphQL API, and Express.js/Node.js. Developed the front end with JWT authentication, Agile methodologies, and deployment to Render <br />
         <strong className="project-description">Role:</strong> Developed the blog section, integrated GraphQL with type definitions and mutations, tested with Apollo, and contributed to CSS styling <br />
         <strong className="project-description">Technologies | Languages:</strong> MongoDB, GraphQL, Express.js, Node.js, React.js, JWT, Apollo, Agile, Render, CSS
