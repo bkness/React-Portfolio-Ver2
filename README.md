@@ -1,5 +1,6 @@
 # React Portfolio
- ![localhost_3000_](https://github.com/bkness/javascript-key-generator/assets/123907755/ddcb4c4f-826d-4652-99a2-0660bb18eed0)
+ ![localhost_3000_ (2)](https://github.com/bkness/React-Portfolio-Ver2/assets/123907755/dfd54ba6-07e8-4840-934d-4c625d15ba7e)
+ ![localhost_3000_ (3)](https://github.com/bkness/React-Portfolio-Ver2/assets/123907755/e8b6e3cf-f0ed-47c5-892d-e5984c946051)
 
 
 ## Description 
