@@ -1,4 +1,3 @@
-// Bringing in the required import from 'react-router-dom'
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
@@ -9,13 +8,15 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      <NavTabs />
-      <main className="main">
-        <Outlet />
-      </main>
+    <div id="root">
+      <div className='wrapper'>
+        <NavTabs />
+        <main className="main">
+          <Outlet />
+        </main>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
