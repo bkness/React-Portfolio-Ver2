@@ -9,9 +9,9 @@ const Footer = () => {
         <a href="https://github.com/bkness" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
           <FaTwitter />
-        </a>
+        </a> */}
         <a href="https://www.linkedin.com/in/brandon-kelly-367b3730b/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
