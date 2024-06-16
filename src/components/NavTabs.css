@@ -1,8 +1,9 @@
 .container-fluid {
   background-color: #1A3A52;
-  height: 115px;
+  height: 15px;
   margin: 0;
   padding: 0;
+  /* overflow-x: hidden; */
 }
 
 .navbar.navbar-expand-lg {
@@ -51,3 +52,8 @@
   color: inherit; 
 }
 
+@media (max-width: 1199px) {
+  .container-fluid {
+    height: 115px;
+  }
+}
