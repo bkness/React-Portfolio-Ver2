@@ -11,20 +11,20 @@
   }
   
   .footer .social-icons a {
-    color: #4ea5d9;
+    color: #98FF4C;
     margin: 0 30px;
     font-size: 4.5rem;
     transition: color 1.5s ease;
   }
   
   .footer .social-icons a:hover {
-    color: #44cfcb;
+    color: #64FD8E;
   }
 
   .footer p {
     margin: 0;
     margin-top: 20px;
     font-size: 1rem;
-    color: #4ea5d9;
+    color: #98FF4C;
   }
   

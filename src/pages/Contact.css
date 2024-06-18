@@ -1,19 +1,19 @@
 .contact-container {
     max-width: 600px;
-    margin-top: 10px;
-    padding: 20px;
+    margin-top: 50px;
+    padding-inline: 20px;
 }
 
 .contact-container h1 {
     font-size: 2.5rem;
-    color: #44cfcb;
+    color: #98FF4C;
     margin-bottom: 25px;
 }
 
 .contact-container label {
     margin-bottom: 5px;
     font-size: 1.6rem;
-    color: #44cfcb;
+    color: #98FF4C;
 }
 
 .contact-container input,
@@ -32,22 +32,22 @@
     font-size: 1.4rem;
     width: 25%;
     color: #fff; 
-    background-color: #4ea5d9;
+    background-color: #4169E1;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.contact-container button:hover {
+/* .contact-container button:hover {
     background-color: #386c0b; 
-}
-
+} */
+/* 
 .contact-container .error {
     color: #b5446eff; 
     font-size: 1.2rem;
     margin-top: -15px;
     margin-bottom: 15px;
-}
+} */
 
 @media (max-width: 1199px) {
     .contact-container input,
@@ -57,10 +57,3 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .contact-container input,
-    .contact-container textarea,
-    input #email {
-        width: 100%;
-    }
-  }
