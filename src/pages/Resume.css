@@ -72,8 +72,11 @@ li {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
-    
+@media(max-width: 600px) {
+    .resume-container {
+        margin-top: 200px;
+    }
+
     .contact-info {
         display: flex;
         flex-direction: column;
