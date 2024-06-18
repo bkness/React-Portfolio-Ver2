@@ -24,12 +24,6 @@ p {
     font-size: 1.2em;
 }
 
-a {
-    color: #16EFC6;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
 .separator {
     color: #23DAE2;  
     margin: 0 8px;
