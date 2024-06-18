@@ -1,6 +1,6 @@
 .contact-container {
     max-width: 600px;
-    margin-top: 50px;
+    margin-top: 120px;
     padding-inline: 20px;
 }
 
@@ -38,16 +38,16 @@
     cursor: pointer;
 }
 
-/* .contact-container button:hover {
+.contact-container button:hover {
     background-color: #386c0b; 
-} */
-/* 
+} 
+
 .contact-container .error {
     color: #b5446eff; 
     font-size: 1.2rem;
     margin-top: -15px;
     margin-bottom: 15px;
-} */
+}
 
 @media (max-width: 1199px) {
     .contact-container input,
@@ -55,5 +55,5 @@
     input #email {
         width: 100%;
     }
-}
+} 
 
