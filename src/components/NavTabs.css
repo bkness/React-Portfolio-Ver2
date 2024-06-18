@@ -1,5 +1,5 @@
 .container-fluid {
-  background-color: #1A3A52;
+  background-color: #1A91B2;
   height: 15px;
   margin: 0;
   padding: 0;
@@ -12,21 +12,21 @@
 .my-name {
   font-size: 3em;
   text-decoration: none;
-  color: #4ea5d9;
+  color: #111E30;
   margin-left: 15px;
 }
 
-.my-name:hover {
+/* .my-name:hover {
   color: #44cfcb;
-}
+} */
 
 .navbar-toggler {
- background-color: #4ea5d9; 
+ background-color: #95E19E; 
  margin-right: 10px;
 }
 
 .navbar-nav {
-  background-color: #1A3A52;
+  background-color:  #1A91B2;
 }
 
 .nav-item {
@@ -35,23 +35,23 @@
 }
 
 .nav-link {
-  color: #4ea5d9; 
+  color:  #111E30; 
   text-decoration: none;
 }
 
-.nav-link:hover {
-  color: #44cfcb; 
+/* .nav-link:hover {
+  color: #2A4A6D; 
 }
 
 .navbar-nav .nav-item .nav-link.active {
-  color: #44cfcb !important; 
-}
+  color: #2A4A6D  !important; 
+} */
 
 .nav-link .react-icon {
   color: inherit; 
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 2400px) {
   .container-fluid {
     height: 115px;
   }
