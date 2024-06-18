@@ -1,77 +1,39 @@
-import React from 'react';
+import { useState } from 'react';
 import { FaHome, FaUser, FaBriefcase, FaEnvelope } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
 import './NavTabs.css';
 
-function NavTabs() {
-  const currentPage = useLocation().pathname;
-
-  const handleNavLinkClick = () => {
-    const navbarToggler = document.getElementById('navbarToggler');
-    if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
-      navbarToggler.click();
-    }
-  };
-
+export default function NavTabs() {
+  
   return (
-    <nav className="navbar navbar-expand-lg">
-      <div className="container-fluid">
-        <Link className="my-name" to="/">Brandon Kelly</Link>
-        <button
-          id="navbarToggler"
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <Link
-                to="/"
-                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                onClick={handleNavLinkClick}
-              >
-                <FaHome className="react-icon" /> Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/Portfolio"
-                className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
-                onClick={handleNavLinkClick}
-              >
-                <FaBriefcase className="react-icon" /> Portfolio
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/Resume"
-                className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
-                onClick={handleNavLinkClick}
-              >
-                <FaUser className="react-icon" /> Resume
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/Contact"
-                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-                onClick={handleNavLinkClick}
-              >
-                <FaEnvelope className="react-icon" /> Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div>
+      <label className="hamburger-menu">
+        <input type="checkbox" />
+      </label>
+      <aside className="sidebar">
+        <nav>
+        <div className='link-text'>
+         <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
+            <FaHome /> About
+          </Link>
+          </div>
+          <div className='link-text'>
+          <Link to="/Resume" className={location.pathname === '/Resume' ? 'active' : ''}>
+            <FaBriefcase /> Resume
+          </Link>
+          </div>
+          <div className='link-text'>
+          <Link to="/Portfolio" className={location.pathname === '/Portfolio' ? 'active' : ''}>
+            <FaUser /> Portfolio
+          </Link>
+          </div>
+          <div className='link-text'>
+          <Link to="/Contact" className={location.pathname === '/Contact' ? 'active' : ''}>
+            <FaEnvelope /> Contact
+          </Link>
+          </div>
+        </nav>
+      </aside>
+    </div>
   );
 }
-
-export default NavTabs;
