@@ -1,5 +1,5 @@
 .container-fluid {
-  background-color: #1A91B2;
+  background-color: #98FF4C;
   height: 15px;
   margin: 0;
   padding: 0;
@@ -12,21 +12,12 @@
 .my-name {
   font-size: 3em;
   text-decoration: none;
-  color: #111E30;
+  color: #056D59;
   margin-left: 15px;
 }
 
-/* .my-name:hover {
-  color: #44cfcb;
-} */
-
 .navbar-toggler {
- background-color: #95E19E; 
  margin-right: 10px;
-}
-
-.navbar-nav {
-  background-color:  #1A91B2;
 }
 
 .nav-item {
@@ -35,23 +26,20 @@
 }
 
 .nav-link {
-  color:  #111E30; 
+  color:  #056D59; 
   text-decoration: none;
 }
 
-/* .nav-link:hover {
-  color: #2A4A6D; 
+.my-name:hover,
+.nav-link:hover {
+  color: #0c0c0c; 
 }
 
 .navbar-nav .nav-item .nav-link.active {
-  color: #2A4A6D  !important; 
-} */
+  color: #0c0c0c !important; 
+} 
 
-.nav-link .react-icon {
-  color: inherit; 
-}
-
-@media (max-width: 2400px) {
+ @media (max-width: 2400px) {
   .container-fluid {
     height: 115px;
   }

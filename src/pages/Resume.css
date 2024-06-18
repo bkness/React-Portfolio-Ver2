@@ -2,17 +2,20 @@ p,
 .experience,
 .project,
 .education {
-    color: #4ea5d9;
+    color: #98FF4C;
 }
 
-.name,
 .contact-info,
 .skill-def,
 .project-description,
 .date,
-.location,
+.location {
+    color: #98FF4C;  
+}
+
+.name,
 h2 {
-    color: #44cfcb;  
+    color: #16EFC6;
 }
 
 .contact-info,
@@ -25,27 +28,20 @@ p {
 }
 
 a {
-    color: #4ea5d9;
+    color: #16EFC6;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-a:hover {
-    color: #44cfcb;  
-}
-
 .separator {
-    color: #44cfcb;  
+    color: #23DAE2;  
     margin: 0 8px;
+    font-weight: bold;
 }
 
 .separator-1 {
-    color: #4ea5d9;
-    margin: 0 8px;
-}
-
-.separator-2 {
     color: #44cfcb;  
+    font-weight: bold;
 }
 
 li {
