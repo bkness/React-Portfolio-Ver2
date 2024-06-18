@@ -19,6 +19,21 @@ body {
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
+.name-link {
+  position: absolute;
+  top: var(--hamburger-margin);
+  left: var(--hamburger-margin);
+  z-index: z;
+  font-size: 3rem;
+  color: var(--foreground);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.name-link:hover {
+  color: #16EFC6;
+}
+
 .hamburger-menu {
   --x-width: calc(var(--hamburger-height) * 1.41421356237);
 
@@ -28,7 +43,7 @@ body {
   width: max-content;
   position: absolute;
   top: var(--hamburger-margin);
-  left: var(--hamburger-margin);
+  right: var(--hamburger-margin);
   z-index: 2;
   cursor: pointer;
 }
@@ -85,13 +100,16 @@ body {
 
 .sidebar {
   transition: translate var(--animation-timing);
-  translate: -100%;
+  translate: 100%; 
   padding: 0.5rem 1rem;
   padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
   max-width: 10rem;
   min-height: 20vh;
+  position: fixed; 
+  top: 0;
+  right: 0; 
 }
 
 .hamburger-menu:has(input:checked) + .sidebar {
@@ -102,4 +120,8 @@ body {
   color: var(--background);
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+.link-text a:hover {
+  opacity: .7;
 }

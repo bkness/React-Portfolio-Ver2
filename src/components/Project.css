@@ -1,5 +1,6 @@
 .project-item {
-    background-color: #343A40;
+  margin-top: 170px;  
+  background-color: #16EFC6;
     border-radius: 5px;
     padding: 10px;
     transition: transform 0.2s;
