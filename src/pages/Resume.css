@@ -1,20 +1,17 @@
 p,
 .experience,
 .project,
-.education {
+.education,
+.contact-info {
     color: #98FF4C;
 }
 
-.contact-info,
+.name,
+h2,
 .skill-def,
 .project-description,
 .date,
 .location {
-    color: #98FF4C;  
-}
-
-.name,
-h2 {
     color: #16EFC6;
 }
 
@@ -41,6 +38,7 @@ a {
 
 .separator-1 {
     color: #44cfcb;  
+    margin: 0 8px;
     font-weight: bold;
 }
 

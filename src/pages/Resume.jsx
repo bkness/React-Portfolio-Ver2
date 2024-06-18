@@ -8,10 +8,10 @@ export default function Resume() {
       <h1 className="name">Brandon Michael Kelly</h1> <br />
 
       <div className="contact-info">
-        <div className="location">
+        <div className="my-location">
           Cottonwood, AZ 86326
         </div>
-        <div className="separator">
+        <div className="separator-1">
           |
         </div>
         <div className="phone">
@@ -46,8 +46,8 @@ export default function Resume() {
       </div><br />
 
       <div className="project">
-        <strong className="project-description">Game Hub </strong> <span className="separator-1">|</span>
-        <a href="https://github.com/bkness/video-game-hub-project3" target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator-1">|</span>
+        <strong className="project-description">Game Hub </strong> <span className="separator">|</span>
+        <a href="https://github.com/bkness/video-game-hub-project3" target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator">|</span>
         <a href="https://video-game-hub-project3.onrender.com/" target="_blank" rel="noopener noreferrer"> Live</a><br /> <br />
         <strong className="project-description">Responsibilities:</strong> Collaborated on the development of a MERN stack application, utilizing MongoDB for the backend, GraphQL API, and Express.js/Node.js. Developed the front end with JWT authentication, Agile methodologies, and deployment to Render <br />
         <strong className="project-description">Role:</strong> Developed the blog section, integrated GraphQL with type definitions and mutations, tested with Apollo, and contributed to CSS styling <br />
@@ -55,8 +55,8 @@ export default function Resume() {
       </div> <br />
 
       <div className="project">
-        <strong className="project-description">Local Brewery Finder</strong> <span className="separator-1">|</span>
-        <a href="https://github.com/bkness/LocalBreweries" target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator-1">|</span>
+        <strong className="project-description">Local Brewery Finder</strong> <span className="separator">|</span>
+        <a href="https://github.com/bkness/LocalBreweries" target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator">|</span>
         <a href="https://radiant-fjord-87739-920e7bb79c22.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Live</a><br /> <br />
         <strong className="project-description">Responsibilities:</strong> Developed a web application integrating an API to find local breweries, allowing users to log in, save favorite breweries, and manage their personalized lists <br />
         <strong className="project-description">Role:</strong> RESTful API integration of Open Brewery DB, Map functionality when ‘view map’ for the brewery is pressed, CSS <br />
@@ -64,8 +64,8 @@ export default function Resume() {
       </div> <br />
 
       <div className="project">
-        <strong className="project-description">NBA Standings Application</strong> <span className="separator-1">|</span>
-        <a href="https://github.com/bkness/jungle-map-api " target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator-1">|</span>
+        <strong className="project-description">NBA Standings Application</strong> <span className="separator">|</span>
+        <a href="https://github.com/bkness/jungle-map-api " target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator">|</span>
         <a href="https://bkness.github.io/jungle-map-api/" target="_blank" rel="noopener noreferrer"> Live</a><br /> <br />
         <strong className="project-description">Responsibilities:</strong> Responsive sports standings app using Tailwind, integrating two APIs for real-time data and implementing client-side storage for persistent data <br />
         <strong className="project-description">Role:</strong> Integration of Sports API, Modal design and functionality, CSS <br />
@@ -73,8 +73,8 @@ export default function Resume() {
       </div> <br />
 
       <div className="project">
-        <strong className="project-description">Tech Blog</strong> <span className="separator-1">|</span>
-        <a href="https://github.com/bkness/MVC-Tech-Blog" target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator-1">|</span>
+        <strong className="project-description">Tech Blog</strong> <span className="separator">|</span>
+        <a href="https://github.com/bkness/MVC-Tech-Blog" target="_blank" rel="noopener noreferrer"> GitHub</a> <span className="separator">|</span>
         <a href="https://mvc--tech-blog-715ec89956fb.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Live</a><br /> <br />
         <strong className="project-description">Responsibilities:</strong> Created front-end interface with Handlebars.js, implemented user authentication, and set up RESTful API routes <br />
         <strong className="project-description">Role:</strong> Integrated MySQL2 and Sequelize for robust user information management, implemented user authentication, and utilized Handlebars template engine for dynamic data rendering <br />
@@ -86,7 +86,7 @@ export default function Resume() {
       <div className="experience">
         <div className="work-with-date">
           <div className="left-container">
-            <strong className="project-description">Abundant Organics <span className="separator">|</span> Gardener</strong>
+            <strong className="project-description">Abundant Organics <span className="separator-1">|</span> Gardener</strong>
           </div>
           <div className="right-container">
             <strong className="date">January 2020 – December 2023</strong><br />
@@ -102,7 +102,7 @@ export default function Resume() {
       <div className="experience">
         <div className="work-with-date">
           <div className="left-content">
-            <strong className="project-description">Main Stage <span className="separator">|</span> Bartender</strong>
+            <strong className="project-description">Main Stage <span className="separator-1">|</span> Bartender</strong>
           </div>
           <div className="right-content">
             <strong className="date">June 2015 – November 2023</strong>
@@ -119,7 +119,7 @@ export default function Resume() {
       <div className="experience">
         <div className="work-with-date">
           <div className="left-content">
-            <strong className="project-description">Enchantment Resort <span className="separator">|</span> Bartender</strong>
+            <strong className="project-description">Enchantment Resort <span className="separator-1">|</span> Bartender</strong>
           </div>
           <div className="right-content">
             <strong className="date">March 2018 – March 2019</strong>
