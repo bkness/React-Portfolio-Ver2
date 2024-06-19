@@ -1,11 +1,21 @@
-.title,
-.text {
-  /* font-family: 'Honk', sans-serif; */
-  margin-top: 100px;
-  padding: 20px;
+.title {
   color: #98FF4C;
 }
 
 .text {
+  /* font-family: 'Honk', sans-serif; */
+  margin-top: 250px;
+  padding: 20px;
+  color: #DEF1CD;
+}
+
+.text {
   font-size: 1.5em;
+}
+
+.about-container {
+  border: 1px solid #98FF4C;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
 }

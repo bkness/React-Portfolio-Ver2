@@ -6,14 +6,14 @@ p,
     color: #98FF4C;
 }
 
-.name,
+/* .name,
 h2,
 .skill-def,
 .project-description,
 .date,
 .location {
     color: #16EFC6;
-}
+} */
 
 .contact-info,
 .contact-link,
@@ -25,13 +25,11 @@ p {
 }
 
 .separator {
-    color: #23DAE2;  
     margin: 0 8px;
     font-weight: bold;
 }
 
 .separator-1 {
-    color: #44cfcb;  
     margin: 0 8px;
     font-weight: bold;
 }
