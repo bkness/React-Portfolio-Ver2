@@ -17,7 +17,6 @@ const Footer = () => {
           <FaLinkedin />
         </a>
       </div>
-      <p>&copy; 2024 Brandon Kelly. All rights reserved.</p>
     </footer>
   );
 };

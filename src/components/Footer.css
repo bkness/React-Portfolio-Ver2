@@ -3,28 +3,19 @@
     padding: 1em 0;
     position: static;
     width: 100%;
-    
   }
   
   .footer .social-icons {
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
   .footer .social-icons a {
-    color: #98FF4C;
+    color: #DEF1CD;
     margin: 0 30px;
     font-size: 4.5rem;
     transition: color 1.5s ease;
   }
   
   .footer .social-icons a:hover {
-    color: #16EFC6;
-  }
-
-  .footer p {
-    margin: 0;
-    margin-top: 20px;
-    font-size: 1rem;
     color: #98FF4C;
   }
-  

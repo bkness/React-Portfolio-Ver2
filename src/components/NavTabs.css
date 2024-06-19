@@ -1,135 +1,45 @@
-*,
-*::after, 
-*::before {
-  box-sizing: border-box;
+.header-fluid {
+  width: 100%;
 }
 
-body {
-  margin: 0;
-}
-
-:root {
-  --bar-width: 60px; 
-  --bar-height: 8px;
-  --hamburger-gap: 6px;
-  --foreground: #98FF4C;
-  --background: #0C0C0C;
-  --hamburger-margin: 8px;
-  --animation-timing: 200ms ease-in-out;
-  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
-}
-
-.name-link {
-  position: absolute;
-  top: var(--hamburger-margin);
-  left: var(--hamburger-margin);
-  z-index: z;
-  font-size: 3rem;
-  color: var(--foreground);
+.my-name {
   text-decoration: none;
-  cursor: pointer;
+  font-size: 2.5rem;
+  color: #98FF4C;
 }
 
-.name-link:hover {
-  color: #16EFC6;
+.my-name:hover {
+  color: #DEF1CD;
 }
 
-.hamburger-menu {
-  --x-width: calc(var(--hamburger-height) * 1.41421356237);
-
-  display: flex;
-  flex-direction: column;
-  gap: var(--hamburger-gap);
-  width: max-content;
-  position: absolute;
-  top: var(--hamburger-margin);
-  right: var(--hamburger-margin);
-  z-index: 2;
-  cursor: pointer;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(152, 255, 76, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.hamburger-menu:has(input:checked) {
-  --foreground: #0C0C0C;
-  --background: #98FF4C;
+.custom-navbar {
+  border: 1px solid #98FF4C;
+  border-radius: 10px;
 }
 
-.hamburger-menu:has(input:focus-visible)::before,
-.hamburger-menu:has(input:focus-visible)::after,
-.hamburger-menu input:focus-visible {
-  border: 1px solid var(--background);
-  box-shadow: 0 0 0 2px var(--foreground);
+.react-icon {
+  margin-right: 5px;
+  margin-bottom: 2px;
 }
 
-.hamburger-menu::before,
-.hamburger-menu::after,
-.hamburger-menu input {
-  content: "";
-  width: var(--bar-width);
-  height: var(--bar-height);
-  background-color: var(--foreground);
-  border-radius: 9999px;
-  transform-origin: left center;
-  transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), background-color var(--animation-timing);
+.nav-link {
+  color: #DEF1CD;
+  margin: 15px;
+  font-size: 1.3rem;
 }
 
-.hamburger-menu input {
-  appearance: none;
-  padding: 0;
-  margin: 0;
-  outline: none;
-  pointer-events: none;
+.nav-link:active {
+  color: #98FF4C !important;
 }
 
-.hamburger-menu:has(input:checked)::before {
-  rotate: 45deg;
-  width: var(--x-width);
-  translate: 0 calc(var(--bar-height) / -2);
+.nav-link:hover {
+  color: #98FF4C;
 }
 
-.hamburger-menu:has(input:checked)::after {
-  rotate: -45deg;
-  width: var(--x-width);
-  translate: 0 calc(var(--bar-height) / 2);
-
-}
-
-.hamburger-menu input:checked {
-  opacity: 0;
-  width: 0;
-}
-
-.sidebar {
-  transition: translate var(--animation-timing);
-  translate: 100%; 
-  padding: 0.5rem 1rem;
-  padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-  background-color: var(--foreground);
-  color: var(--background);
-  max-width: 10rem;
-  min-height: 20vh;
-  position: fixed; 
-  top: 0;
-  right: 0; 
-  display: none;
-}
-
-.hamburger-menu:has(input:checked) + .sidebar {
-  display: block;
-  translate: 0;
-}
-
-.link-text a {
-  color: var(--background);
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.link-text a:hover {
-  opacity: .7;
-}
-
-@media (max-width: 600px) {
-  .name-link {
-    font-size: 2.5rem;
-  }
+.nav-link:focus {
+  color: #98FF4C;
 }

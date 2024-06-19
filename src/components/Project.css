@@ -1,7 +1,7 @@
 .project-item {
-  margin-top: 170px;
-  background-color: #98FF4C;
-  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid #98FF4C;
+  border-radius: 10px;
   padding: 10px;
   transition: transform 0.2s;
   color: #0C0C0C;
@@ -19,21 +19,23 @@
   margin-bottom: 15px;
 }
 
-.project-title h1 {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.project-title a {
+.project-title {
+  font-size: 1.5rem;
   text-decoration: none;
-  color: var(--air-superiority-blue);
+  color: #98FF4C;
 }
 
-.project-title a:hover {
-  text-decoration: underline;
+.project-title:hover {
+  color: #DEF1CD;
+  text-decoration: none;
 }
 
-.project-title p {
-  font-size: 1.2em;
-  color: var(--sage);
+.descrip {
+  font-size: 1rem;
+  color: #DEF1CD;
+}
+
+.technology {
+  font-size: 1rem;
+  
 }
