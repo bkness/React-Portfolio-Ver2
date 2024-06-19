@@ -110,9 +110,11 @@ body {
   position: fixed; 
   top: 0;
   right: 0; 
+  display: none;
 }
 
 .hamburger-menu:has(input:checked) + .sidebar {
+  display: block;
   translate: 0;
 }
 
