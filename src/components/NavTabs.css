@@ -43,3 +43,10 @@
 .nav-link:focus {
   color: #98FF4C;
 }
+
+@media (max-width: 768px) {
+  .nav-link {
+    margin: 5px 0;
+    padding: 5px;
+  }
+}
