@@ -1,19 +1,31 @@
-p,
+
 .experience,
-.project,
 .education,
 .contact-info {
     color: #98FF4C;
 }
 
-/* .name,
+a, 
+.location,
+.project,
+p,
+.date {
+    color: #DEF1CD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #98FF4C;
+}
+
+.my-location,
+.name,
 h2,
 .skill-def,
-.project-description,
-.date,
-.location {
-    color: #16EFC6;
-} */
+.project-description {
+    color: #98FF4C;
+    text-decoration: none;
+}
 
 .contact-info,
 .contact-link,
@@ -27,11 +39,13 @@ p {
 .separator {
     margin: 0 8px;
     font-weight: bold;
+    color: #98FF4C;
 }
 
 .separator-1 {
     margin: 0 8px;
     font-weight: bold;
+    color: #DEF1CD;
 }
 
 li {
@@ -42,7 +56,9 @@ li {
     display: flex;
     flex-direction: column;
     padding-inline: 2%;
-    margin-top: 120px;
+    border: 1px solid #98FF4C;
+    border-radius: 10px;
+    margin: 20px
 }
 
 .name {
@@ -72,7 +88,7 @@ li {
 
 @media(max-width: 600px) {
     .resume-container {
-        margin-top: 200px;
+        margin-top: 50px;
     }
 
     .contact-info {
