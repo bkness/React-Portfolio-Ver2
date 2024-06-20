@@ -1,7 +1,6 @@
 .contact-container {
-    width: 90%;
-    margin: 40px auto;
-    padding-inline: 40px;
+    
+    margin: 50px 10px 20px 10px;
     padding: 30px;
     border: 1px solid #98FF4C;
     border-radius: 10px;
@@ -32,13 +31,14 @@
 .contact-container button {
     padding: 15px;
     font-size: 1.4rem;
-    width: 25%;
+    width: 40%;
     color: #0C0C0C; 
     background-color: #98FF4C;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid #DEF1CD;
+    margin-bottom: 10px;
 }
 
 .contact-container button:hover {
