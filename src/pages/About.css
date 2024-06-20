@@ -3,9 +3,7 @@
 }
 
 .text {
-  /* font-family: 'Honk', sans-serif; */
   margin-top: 250px;
-  padding: 20px;
   color: #DEF1CD;
 }
 
@@ -15,15 +13,17 @@
 
 .about-container {
   border: 1px solid #98FF4C;
-  margin: 50px;
+  margin: 50px 10px 20px 10px;
   padding: 50px;
   border-radius: 10px;
+  margin-top: 50px;
 }
 
 @media (max-width: 900px) {
   .about-container {
-    margin: 20px;
-    padding: 2px;
+    margin: 50px 10px 20px 10px;
+    padding: 1px;
+    padding-inline: 10px;
   }
 
   .title {
