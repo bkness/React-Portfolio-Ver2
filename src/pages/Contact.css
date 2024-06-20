@@ -3,31 +3,36 @@
     padding: 30px;
     border: 1px solid #98FF4C;
     border-radius: 10px;
-}
-
-.contact-container h1 {
+  }
+  
+  .contact-container h1 {
     font-size: 2.5rem;
     color: #98FF4C;
-    margin-bottom: 100px;
-}
-
-.contact-container label {
-    margin: 10px 0 5px 0;
-    color: #98FF4C;
-}
-
-.contact-container input,
-.contact-container textarea {
-    padding: 10px;
     margin-bottom: 70px;
+  }
+  
+  /* Adjusted styles for form groups */
+  .form-group {
+    margin-bottom: 70px; /* Matches existing input margin-bottom */
+  }
+  
+  .contact-container label {
+    margin: 0px 0 5px 0;
+    color: #DEF1CD;
+    font-size: 1.5rem;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    padding: 10px;
     border: 2px solid #98FF4C; 
     border-radius: 5px;
     font-size: 1.4rem;
     background-color: #DEF1CD; 
     width: 100%;
-}
-
-.contact-container button {
+  }
+  
+  .contact-container button {
     padding: 15px;
     font-size: 1.4rem;
     width: 40%;
@@ -38,28 +43,28 @@
     cursor: pointer;
     border: 2px solid #DEF1CD;
     margin-bottom: 10px;
-}
-
-.contact-container button:hover {
+  }
+  
+  .contact-container button:hover {
     background-color: #DEF1CD;  
-} 
-
-.contact-container .error {
+  }
+  
+  .contact-container .error {
     color: #b5446eff; 
     font-size: 1.2rem;
     margin-top: -15px;
     margin-bottom: 15px;
-}
-
-@media (max-width: 1199px) {
+  }
+  
+  @media (max-width: 1199px) {
     .contact-container {
-        padding: 15px;
+      padding: 15px;
     }
-
+  
     .contact-container input,
     .contact-container textarea,
     input #email {
-        width: 100%;
+      width: 100%;
     }
-} 
-
+  }
+  
