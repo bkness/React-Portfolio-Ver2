@@ -23,6 +23,8 @@
   font-size: 1.5rem;
   text-decoration: none;
   color: #98FF4C;
+  display: flex;
+  justify-content: center;
 }
 
 .project-title:hover {
@@ -31,11 +33,21 @@
 }
 
 .descrip {
-  font-size: 1rem;
   color: #DEF1CD;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
-.project-info .technologies {
-  font-size: 1rem;
+.technologies {
+  color: #DEF1CD;
+  margin: 25px 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.strong-tech {
   color: #98FF4C;
+  margin-right: 5px;
 }

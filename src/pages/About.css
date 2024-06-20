@@ -19,3 +19,14 @@
   padding: 50px;
   border-radius: 10px;
 }
+
+@media (max-width: 900px) {
+  .about-container {
+    margin: 50px;
+    padding: 2px;
+  }
+
+  .title {
+    margin: 10px;
+  }
+}

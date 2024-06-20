@@ -3,9 +3,9 @@ import * as projects from '../assets';
 import './Project.css';
 
 function Project({ project }) {
-  const { name, repo, link, description, image } = project;
+  const { name, repo, link, description, technologies, image } = project;
 
-console.log ('Project data:', project);
+  console.log('Project data:', project);
 
   return (
     <div className="project-item">
@@ -17,7 +17,11 @@ console.log ('Project data:', project);
             <i className="fab fa-github"></i>
           </a>
         </h1>
-        <p>{description}</p>
+        <p className='descrip'>{description}</p>
+        <div className='technologies'>
+          <strong className='strong-tech'>Technologies:</strong>
+          <span>{technologies}</span>
+        </div>
       </div>
     </div>
   );
