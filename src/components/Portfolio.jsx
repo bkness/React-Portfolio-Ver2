@@ -42,6 +42,14 @@ const projects = [
     link: "https://bkness.github.io/javascript-key-generator",
     repo: "https://github.com/bkness/javascript-key-generator",
     image: "keygen",
+  },
+  {
+    name: "Advanced CSS-Portfolio",
+    description: "Portfolio made with Flexbox CSS",
+    technologies: "HTML/CSS",
+    link: "https://bkness.github.io/advanced-css-portfolio",
+    repo: "https://github.com/bkness/advanced-css-portfolio",
+    image: "portfolio",
   }
 ];
 
