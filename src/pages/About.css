@@ -1,22 +1,33 @@
 .title {
   color: #98FF4C;
+  text-align: center;
 }
 
 .text {
-  margin-top: 250px;
+  text-align: center;
   color: #DEF1CD;
-}
-
-.text {
   font-size: 1.5em;
 }
-
+ 
 .about-container {
   border: 1px solid #98FF4C;
   margin: 50px 10px 20px 10px;
   padding: 50px;
   border-radius: 10px;
   margin-top: 50px;
+}
+
+.profile-image-container {
+  text-align: center; 
+  margin: 30px 0 30px 0; 
+}
+
+.profile-image {
+  width: 300px; 
+  height: auto; 
+  max-width: 100%; 
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px #98FF4C(0, 0, 0, 0.1); 
 }
 
 @media (max-width: 900px) {

@@ -28,7 +28,7 @@ const Contact = () => {
         
         <div className="form-group">
           <label htmlFor="message">Your Message:</label>
-          <textarea required name="message" id="message" placeholder='Ex: My name is Steve, lets connect!' rows='10'></textarea>
+          <textarea required name="message" id="message" placeholder='Ex: My name is Steve, lets connect!' rows='2'></textarea>
         </div>
         
         <button type="submit">Send</button>
