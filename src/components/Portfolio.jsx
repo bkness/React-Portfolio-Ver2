@@ -46,7 +46,7 @@ const projects = [
   {
     name: "Advanced CSS-Portfolio",
     description: "Portfolio made with Flexbox CSS",
-    technologies: "HTML/CSS",
+    technologies: "HTML/CSS/FlexBox",
     link: "https://bkness.github.io/advanced-css-portfolio",
     repo: "https://github.com/bkness/advanced-css-portfolio",
     image: "portfolio",

@@ -8,12 +8,12 @@
   .contact-container h1 {
     font-size: 2.5rem;
     color: #98FF4C;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
   
-  /* Adjusted styles for form groups */
+ 
   .form-group {
-    margin-bottom: 70px; /* Matches existing input margin-bottom */
+    margin-bottom: 40px; 
   }
   
   .contact-container label {
