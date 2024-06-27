@@ -4,6 +4,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const projects = [
   {
+    name: "Local Breweries",
+    description: "Find, and save Brewery info",
+    technologies: "MySQL/Handlebars/Express/Node",
+    link: "https://radiant-fjord-87739-920e7bb79c22.herokuapp.com",
+    repo: "https://github.com/bkness/LocalBreweries",
+    image: "LocalBrewery",
+  },
+  {
     name: "Tech Blog",
     description: "RESTful API blog",
     technologies: "Node/JS/CSS/Handlebars",
@@ -12,16 +20,8 @@ const projects = [
     image: "blog",
   },
   {
-    name: "Random Cocktail Generator",
-    description: "Application that generates cocktails.",
-    technologies: "HTML/JS/CSS",
-    link: "https://bkness.github.io/Random-Cocktail-API",
-    repo: "https://github.com/bkness/Random-Cocktail-API",
-    image: "cocktail",
-  },
-  {
     name: "Open Weather Database",
-    description: "Weather app utilizing local storage.",
+    description: "Weather app utilizing local storage",
     technologies: "HTML/CSS/JS/OpenWeatherAPI",
     link: "https://bkness.github.io/open-weather-api",
     repo: "https://github.com/bkness/open-weather-api",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     name: "Video Game Hub",
-    description: "Hub for video game information.",
+    description: "Hub for video game information",
     technologies: "React/Express/Graphql/Mongo/Node",
     link: "https://video-game-hub.onrender.com/",
     repo: "https://github.com/bkness/video-game-hub-project3",
@@ -66,7 +66,15 @@ const projects = [
     link: "https://radiant-fjord-87739-920e7bb79c22.herokuapp.com",
     repo: "https://github.com/bkness/LocalBreweries",
     image: "LocalBrewery",
-  }
+  },
+  {
+    name: "Random Cocktail Generator",
+    description: "Application that generates cocktails",
+    technologies: "HTML/JS/CSS",
+    link: "https://bkness.github.io/Random-Cocktail-API",
+    repo: "https://github.com/bkness/Random-Cocktail-API",
+    image: "cocktail",
+  },
 ];
 
 
