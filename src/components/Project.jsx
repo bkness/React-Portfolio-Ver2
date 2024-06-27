@@ -13,9 +13,8 @@ function Project({ project }) {
       <div className="project-info">
         <h1>
           <a href={link} target='_blank' rel='noopener noreferrer' className='project-title'>{name}</a>{' '}
-          <a href={repo} target='_blank' rel='noopener noreferrer'>
+          <p className='repo'>{repo}</p>
             <i className="fab fa-github"></i>
-          </a>
         </h1>
         <p className='descrip'>{description}</p>
         <div className='technologies'>
