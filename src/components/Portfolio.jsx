@@ -14,18 +14,10 @@ const projects = [
   {
     name: "Tech Blog",
     description: "RESTful API blog",
-    technologies: "Node/JS/CSS/Handlebars",
+    technologies: "Node/JS/CSS/Handlebars/MySQL",
     link: "https://mvc--tech-blog-715ec89956fb.herokuapp.com/",
     repo: "https://github.com/bkness/MVC-Tech-Blog",
     image: "blog",
-  },
-  {
-    name: "Open Weather Database",
-    description: "Weather app utilizing local storage",
-    technologies: "HTML/CSS/JS/OpenWeatherAPI",
-    link: "https://bkness.github.io/open-weather-api",
-    repo: "https://github.com/bkness/open-weather-api",
-    image: "weather",
   },
   {
     name: "Video Game Hub",
@@ -36,12 +28,28 @@ const projects = [
     image: "game",
   },
   {
-    name: "Key Generator",
+    name: "Readme Generator",
     description: "JavaScript key generator.",
-    technologies: "HTML/CSS/JS",
+    technologies: "Node/Inquirer/JavaScript",
+    link: "https://github.com/bkness/readme-generator/assets/123907755/cfad32a6-95b1-4ca9-aeab-f836b7cc1f21",
+    repo: "https://github.com/bkness/readme-generator",
+    image: "readme_gen",
+  },
+  {
+    name: "Key Generator",
+    description: "JavaScript key generator",
+    technologies: "HTML/CSS/JavaScript",
     link: "https://bkness.github.io/javascript-key-generator",
     repo: "https://github.com/bkness/javascript-key-generator",
     image: "keygen",
+  },
+  {
+    name: "Open Weather Database",
+    description: "Weather app utilizing local storage",
+    technologies: "HTML/CSS/JS/OpenWeatherAPI",
+    link: "https://bkness.github.io/open-weather-api",
+    repo: "https://github.com/bkness/open-weather-api",
+    image: "weather",
   },
   {
     name: "Advanced CSS-Portfolio",
@@ -60,21 +68,13 @@ const projects = [
     image: "social",
   },
   {
-    name: "Local Breweries",
-    description: "Find, and save Brewery info",
-    technologies: "MySQL/Handlebars/Express/Node",
-    link: "https://radiant-fjord-87739-920e7bb79c22.herokuapp.com",
-    repo: "https://github.com/bkness/LocalBreweries",
-    image: "LocalBrewery",
-  },
-  {
     name: "Random Cocktail Generator",
     description: "Application that generates cocktails",
-    technologies: "HTML/JS/CSS",
+    technologies: "HTML/JavaScript/CSS",
     link: "https://bkness.github.io/Random-Cocktail-API",
     repo: "https://github.com/bkness/Random-Cocktail-API",
     image: "cocktail",
-  },
+  }
 ];
 
 
