@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const projects = [
   {
     name: "Tech Blog",
-    description: "A blog platform built with MVC architecture.",
+    description: "RESTful API blog",
     technologies: "Node/JS/CSS/Handlebars",
     link: "https://mvc--tech-blog-715ec89956fb.herokuapp.com/",
     repo: "https://github.com/bkness/MVC-Tech-Blog",
@@ -58,6 +58,14 @@ const projects = [
     link: "https://www.youtube.com/watch?v=g3LsVPTANH0",
     repo: "https://github.com/bkness/advanced-css-portfolio",
     image: "social",
+  },
+  {
+    name: "Local Breweries",
+    description: "Find, and save Brewery info",
+    technologies: "MySQL/Handlebars/Express/Node",
+    link: "https://radiant-fjord-87739-920e7bb79c22.herokuapp.com",
+    repo: "https://github.com/bkness/LocalBreweries",
+    image: "LocalBrewery",
   }
 ];
 

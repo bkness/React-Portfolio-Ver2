@@ -5,4 +5,5 @@ export {default as game} from "./projects/game.png"
 export {default as keygen} from "./projects/keygen.png"
 export {default as portfolio} from "./projects/portfolio.png"
 export {default as social} from "./projects/social.png"
+export {default as LocalBrewery} from "./projects/LocalBrewery.png"
 
