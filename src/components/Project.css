@@ -21,16 +21,22 @@
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #98FF4C;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .project-title:hover {
   color: #DEF1CD;
   text-decoration: none;
+}
+
+.repo {
+  font-size: 1.6rem;
+  padding-inline-start: 37%;
 }
 
 .descrip {
