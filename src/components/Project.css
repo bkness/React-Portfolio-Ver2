@@ -6,7 +6,7 @@
   transition: transform 0.2s;
   color: #0C0C0C;
   margin-top: 2px;
-  height: 600px;
+  height: 650px;
 }
 
 .project-item:hover {
@@ -38,7 +38,9 @@
 
 .repo {
   font-size: 1.6rem;
-  padding-inline-start: 37%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .descrip {
@@ -46,6 +48,7 @@
   display: flex;
   justify-content: center;
   margin-top: 25px;
+  font-size: 1.4rem;
 }
 
 .technologies {
@@ -54,6 +57,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.4rem;
 }
 
 .strong-tech {
