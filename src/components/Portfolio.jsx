@@ -30,7 +30,7 @@ const projects = [
   {
     name: "Video Game Hub",
     description: "Hub for video game information.",
-    technologies: "React/Express/Graphql/Mongo",
+    technologies: "React/Express/Graphql/Mongo/Node",
     link: "https://video-game-hub.onrender.com/",
     repo: "https://github.com/bkness/video-game-hub-project3",
     image: "game",
@@ -50,6 +50,14 @@ const projects = [
     link: "https://bkness.github.io/advanced-css-portfolio",
     repo: "https://github.com/bkness/advanced-css-portfolio",
     image: "portfolio",
+  },
+  {
+    name: "Social Media API",
+    description: "Back-end Social Network API",
+    technologies: "MongoDB/Express/React/Node",
+    link: "https://www.youtube.com/watch?v=g3LsVPTANH0",
+    repo: "https://github.com/bkness/advanced-css-portfolio",
+    image: "social",
   }
 ];
 
