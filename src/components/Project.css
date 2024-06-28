@@ -43,21 +43,35 @@
   margin-top: 20px;
 }
 
+.icon {
+  color: #98FF4C;
+  font-size: 24px; 
+  margin: 3px 0 0 10px; 
+}
+
+.icon:hover {
+  color: #DEF1CD;
+}
+
 .descrip {
   color: #DEF1CD;
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: 1.4rem;
 }
 
 .technologies {
   color: #DEF1CD;
-  margin: 25px 0 20px 0;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1.4rem;
+}
+
+span {
+  margin-top: 20px;
 }
 
 .strong-tech {
