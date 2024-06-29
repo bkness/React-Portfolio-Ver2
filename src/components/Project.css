@@ -6,7 +6,7 @@
   transition: transform 0.2s;
   color: #0C0C0C;
   margin-top: 2px;
-  height: 850px;
+  height: 950px;
 }
 
 .project-item:hover {
@@ -54,10 +54,9 @@
 
 .descrip {
   color: #DEF1CD;
-  display: flex;
-  justify-content: center;
   margin-top: 20px;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 .technologies {
@@ -80,7 +79,7 @@ span {
 
 @media (max-width: 700px) {
   .project-item {
-    height: 650px;
+    height: 750px;
   }
   
   .project-image {

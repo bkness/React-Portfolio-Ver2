@@ -20,6 +20,14 @@ const projects = [
     image: "blog",
   },
   {
+    name: "Object Relational Mapping",
+    description: "Built an efficient e-commerce back-end using Sequelize ORM with Express.js, ensuring seamless data management through robust CRUD operations",
+    technologies: "Sequelize, Express.js, Node.js, MySQL",
+    link: "https://github.com/bkness/model-view-controller/assets/123907755/b6e796be-f9f7-4d54-a3ae-99fd789d09d8",
+    repo: "https://github.com/bkness/Object-Relational-Mapping",
+    image: "orm",
+  },
+  {
     name: "Video Game Hub",
     description: "Hub for video game information",
     technologies: "React/Express/Graphql/Mongo/Node",
