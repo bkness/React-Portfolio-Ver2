@@ -7,7 +7,7 @@ const projects = [
     name: "Local Breweries",
     description: "This Full-Stack Application lets users log in, search for, and save their favorite breweries. Users can also comment on saved breweries and delete them if desired. The application uses Node.js, Express, MySQL, Handlebars, and Sequelize for the backend, with Bootstrap for styling and Leaflet for interactive maps.",
     technologies: "MySQL/Handlebars/Express/Node",
-    link: "https://radiant-fjord-87739-920e7bb79c22.herokuapp.com",
+    link: "https://bkness-localbrews-daa3c5b76d20.herokuapp.com/",
     repo: "https://github.com/bkness/LocalBreweries",
     image: "LocalBrewery",
   },
