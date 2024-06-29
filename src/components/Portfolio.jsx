@@ -39,8 +39,8 @@ const projects = [
     name: "Key Generator",
     description: "Developed a robust password generator application using JavaScript, HTML, and CSS. This dynamic tool allows users to generate secure passwords based on selected criteria such as length and character types (lowercase, uppercase, numeric, special characters). Implemented using arrays and randomized selection methods, the generator ensures each password meets specified security requirements.",
     technologies: "HTML/CSS/JavaScript",
-    link: "https://bkness.github.io/javascript-key-generator",
-    repo: "https://github.com/bkness/javascript-key-generator",
+    link: "https://bkness.github.io/Javascript-Key-Generator",
+    repo: "https://github.com/bkness/Javascript-Key-Generator",
     image: "keygen",
   },
   {
