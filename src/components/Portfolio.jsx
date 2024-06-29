@@ -47,8 +47,8 @@ const projects = [
     name: "Open Weather Database",
     description: "Weather app utilizing local storage",
     technologies: "HTML/CSS/JS/OpenWeatherAPI",
-    link: "https://bkness.github.io/open-weather-api",
-    repo: "https://github.com/bkness/open-weather-api",
+    link: "https://bkness.github.io/Open-Weather-API",
+    repo: "https://github.com/bkness/Open-Weather-API",
     image: "weather",
   },
   {
