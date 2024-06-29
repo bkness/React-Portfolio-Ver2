@@ -79,7 +79,11 @@ span {
 }
 
 @media (max-width: 700px) {
+  .project-item {
+    height: 650px;
+  }
+  
   .project-image {
-    height: 400px;
+    height: 300px;
   }
 }
