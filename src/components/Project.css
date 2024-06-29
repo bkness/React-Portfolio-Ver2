@@ -6,7 +6,7 @@
   transition: transform 0.2s;
   color: #0C0C0C;
   margin-top: 2px;
-  height: 950px;
+  height: 1100px;
 }
 
 .project-item:hover {
@@ -79,7 +79,7 @@ span {
 
 @media (max-width: 700px) {
   .project-item {
-    height: 750px;
+    height: 1050px;
   }
   
   .project-image {
